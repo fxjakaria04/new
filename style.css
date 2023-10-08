@@ -41,9 +41,9 @@ body {
     position: relative;
 }
 .profile-picture {
-    width: 180px;
+    width: 250px;
     position: absolute;
-    bottom: -45px;
+    bottom: -60px;
     left: 50px;
     border: 8px solid white;
     z-index: 1;
@@ -85,31 +85,37 @@ body {
 .inner-area {
     width: 100%;
     background-color: white;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
 }
-.area-51{
-    float: left !important;
+.area51{
+    float: left;
     width: 30%;
     margin-bottom: 20px;
 }
-.area-52 {
-    float: left !important;
-    width: 50%;
+.area52 {
+    float: left;
+    width: 70%;
 }
 .area-51s {
     height: 200px;
-    width: 30%;
     background-color: wheat;
+    margin: 10px;
 }
 .area-51m {
     height: 500px;
-    width: 30%;
     background-color: wheat;
+    margin: 10px;
 }
 .area-52l {
-    width: 60%;
-    height: 700px;
+    height: 1200px;
     background-color: wheat;
+    margin: 10px;
+}
+.footer {
+    background-color: wheat;
+    margin-top:1225px ;
+    padding: 10px;
+}
+p {
+    color: #000;
+    text-align: center;
 }
