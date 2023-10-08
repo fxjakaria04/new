@@ -99,16 +99,25 @@ body {
     height: 200px;
     background-color: wheat;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .area-51m {
     height: 500px;
     background-color: wheat;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .area-52l {
     height: 1200px;
     background-color: wheat;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer {
     background-color: wheat;

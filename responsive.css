@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px){
+    .container {
+        width: 90%;
+        margin: 0px auto;
+    }
+    .section {
+        padding: 5px;
+        border: 1px solid transparent;
+        height:30px ;
+    }
+    .bg-image {
+        height: 300px;
+    }
+    .profile-picture {
+        width: 150px;
+        position: absolute;
+        bottom: -60px;
+        left: 10px;
+        border: 4px solid white;
+        z-index: 1;
+    }
+    .sections .section h1 {
+        font-size: 0.2rem;
+    }
+    .bg-img-bar {
+        height: 40px;
+    }
+    .bar-1, .bar-2 {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 152px;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .bar-2 {
+        padding-left: 0px;
+    }
+    
+    
+    .area51{
+        float: left;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .area52 {
+        float: left;
+        width: 100%;
+    }
+    .footer {
+        background-color: wheat;
+        margin-top:1975px ;
+        padding: 10px;
+    }
+    .area-52l {
+        height: 1200px;
+        background-color: wheat;
+        margin:0px 10px;
+    }
+    
+}
