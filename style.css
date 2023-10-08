@@ -31,3 +31,16 @@
 .section:hover {
     border:1px solid wheat ;
 }
+.bg-image {
+    background-image: url(images/_MG_3325.JPG);
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.profile-picture {
+    width: 180px;
+    position: absolute;
+    bottom: -45px;
+    left: 50px;
+    border: 8px solid white;
+}
