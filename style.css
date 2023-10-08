@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+.navbar {
+    height:55px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.sections {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section {
+    padding: 10px;
+    border: 1px solid transparent;
+    height:45px ;
+    display: flex;
+    align-items:center ;
+}
+.section:hover {
+    border:1px solid wheat ;
+}
