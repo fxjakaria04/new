@@ -83,5 +83,33 @@ body {
 /* area section start form here */
 
 .inner-area {
-    
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.area-51{
+    float: left !important;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.area-52 {
+    float: left !important;
+    width: 50%;
+}
+.area-51s {
+    height: 200px;
+    width: 30%;
+    background-color: wheat;
+}
+.area-51m {
+    height: 500px;
+    width: 30%;
+    background-color: wheat;
+}
+.area-52l {
+    width: 60%;
+    height: 700px;
+    background-color: wheat;
 }
